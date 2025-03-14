@@ -1,19 +1,14 @@
 {
-  "name": "node-sass",
+  "name": "exp-node-sass",
   "version": "9.0.0",
   "libsass": "3.5.5",
   "description": "Wrapper around libsass",
   "license": "MIT",
-  "bugs": "https://github.com/sass/node-sass/issues",
-  "homepage": "https://github.com/sass/node-sass",
+  "bugs": "https://github.com/BonnierNews/exp-node-sass/issues",
+  "homepage": "https://github.com/BonnierNews/exp-node-sass",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sass/node-sass"
-  },
-  "author": {
-    "name": "Andrew Nesbitt",
-    "email": "andrewnez@gmail.com",
-    "url": "http://andrew.github.com"
+    "url": "https://github.com/BonnierNews/exp-node-sass"
   },
   "engines": {
     "node": ">=16"
