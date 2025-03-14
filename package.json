@@ -1,5 +1,5 @@
 {
-  "name": "exp-node-sass",
+  "name": "@bonniernews/exp-node-sass",
   "version": "9.0.0",
   "libsass": "3.5.5",
   "description": "Wrapper around libsass",
