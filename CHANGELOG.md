@@ -1,3 +1,7 @@
+## v9.0.2
+
+https://github.com/BonnierNews/exp-node-sass/releases/tag/v9.0.2
+
 ## v4.14.0
 
 https://github.com/sass/node-sass/releases/tag/v4.14.0
