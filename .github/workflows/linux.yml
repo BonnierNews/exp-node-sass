@@ -36,7 +36,7 @@ jobs:
         run: sudo apt-get install ${{ matrix.gcc }} ${{ matrix.gpp }}
 
       - name: Install packages
-        run: npm install --unsafe-perm
+        run: npm ci --unsafe-perm
         env:
           SKIP_SASS_BINARY_DOWNLOAD_FOR_CI: true
           CC: ${{ matrix.gcc }}

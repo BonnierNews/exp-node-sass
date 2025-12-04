@@ -52,10 +52,10 @@ This is a security feature of `npm`. You should always avoid running `npm` as
 Please check [npm documentation on fixing permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions).
 
 If you must however, you can work around this error by using the `--unsafe-perm`
-flag with npm install i.e.
+flag with npm ci i.e.
 
 ```sh
-sudo npm install --unsafe-perm -g node-sass
+sudo npm ci --unsafe-perm -g node-sass
 ```
 
 If this didn't solve your problem please open an issue with the output from
@@ -80,7 +80,7 @@ The easiest way to get around this is just to cleanup the npm files and reinstal
 rm -rf node_modules
 rm package-lock.json
 npm cache clean
-npm install
+npm ci
 ```
 
 ## Helping us, help you
@@ -141,7 +141,7 @@ npm cache clean
 Install the latest node-sass
 
 ```console
-npm install node-sass@latest
+npm ci node-sass@latest
 ```
 
 Note which version was installed by running
@@ -219,7 +219,7 @@ node -p process.arch
 Install the latest node-sass
 
 ```sh
-npm install node-sass@latest
+npm ci node-sass@latest
 ```
 
 Note which version was installed by running
