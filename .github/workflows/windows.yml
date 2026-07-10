@@ -31,7 +31,7 @@ jobs:
           architecture: ${{ matrix.architecture }}
 
       - name: Install packages
-        run: npm install
+        run: npm ci
         env:
           SKIP_SASS_BINARY_DOWNLOAD_FOR_CI: true
 
